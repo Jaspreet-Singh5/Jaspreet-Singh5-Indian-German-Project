@@ -1,0 +1,15 @@
+.Button {
+    background-color: #681F55;
+    border: none;
+    padding: 3rem 7rem 3rem 7rem;
+    border-radius: 3rem;
+    margin-top: 2rem;
+}
+
+.Button a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+}

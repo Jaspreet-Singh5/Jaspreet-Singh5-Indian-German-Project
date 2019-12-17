@@ -1,0 +1,27 @@
+.Reporting {
+    background-color: #fff;
+    border-radius: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    /* height: 70vh; */
+
+    padding: 4rem;
+}
+
+.header_reporting {
+    font-family: 'Roboto';
+    letter-spacing: .3rem;
+}
+
+.header_reporting--heading1 {
+    font-size: 3.2rem;
+}
+
+.header_reporting--heading3 {
+    font-size: 2.4rem;
+}
+
+.reportingCards {
+    margin-top: 2rem;
+}

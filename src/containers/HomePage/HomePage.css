@@ -1,0 +1,23 @@
+.HomePage {
+    padding: 0rem;
+    background-color: #cfafef;
+    
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.top-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 85vh;
+    
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+}
+
+.reporting {
+    margin-top: 2rem;
+}

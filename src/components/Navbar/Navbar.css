@@ -1,0 +1,77 @@
+.nav {
+    width: 100%;
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 100%;
+    list-style-type: none;
+}
+
+.menu, .registration {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    flex: 1;
+}
+
+.menu {
+    flex-grow: 5;
+    justify-content: flex-start;
+    margin-left: 5rem;
+}
+
+.registration {
+    width: 10%;
+}
+
+.nav-list--item {
+    font-size: 1.6rem;
+    font-family: 'Domine', serif;
+}
+
+.menu .nav-list--item {
+    margin-right: 5rem;
+}
+
+.nav-list--item .nav-list--brand {
+    font-size: 2.4rem;
+    border-right: 1px solid #707070;
+    padding-right: 2rem;
+    color: #000000;
+}
+
+.nav-list--link {
+    text-decoration: none;
+    color: #A29F9F;
+}
+
+.nav-list--link:active,
+.active,
+.nav-list--link:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+
+
+.nav-list--link__registration {
+    background-color: #681F55;
+    border-radius: 5rem;
+    text-transform: uppercase;
+    color: white;
+    padding: 1rem;
+}
+
+.nav-list--link__registration:hover {
+    background-color: #CFAFEF!important;
+}

@@ -1,0 +1,28 @@
+.ReportingCards {
+    display: flex;
+
+    flex-direction: column;
+}
+
+.card-row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-row:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.card-col {
+    width: 30%;
+    height: 20rem;
+    background-color: teal;
+    color: #fff;
+    font-size: 2.4rem;
+    font-family: 'Domine';
+    border-radius: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
