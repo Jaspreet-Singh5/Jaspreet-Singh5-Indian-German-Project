@@ -10,7 +10,10 @@ const navbar = props => (
                 <li className="nav-list--item">
                     <NavLink 
                         className="nav-list--link nav-list--brand"
-                        to='/'>Smart City
+                        to='/'>
+                        <div className="nav-logo">
+                        
+                        </div>
                     </NavLink>
                 </li>
             </div>
@@ -40,18 +43,20 @@ const navbar = props => (
             </div>
             
 
+
             <div className="registration">
                 <li className="nav-list--item nav-list--item__registration">
                     <NavLink 
                         className="nav-list--link nav-list--link__registration"
-                        to='/login'>Login
+                        to='/login'>
+                        Log in
                     </NavLink>
                 </li>
 
                 <li className="nav-list--item nav-list--item__registration">
                     <NavLink 
                         className="nav-list--link nav-list--link__registration"
-                        to='/signup'>Signup
+                        to='/signup'>Sign up
                     </NavLink>
                 </li>
             </div> 

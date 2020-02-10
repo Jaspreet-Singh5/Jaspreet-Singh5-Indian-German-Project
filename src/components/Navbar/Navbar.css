@@ -5,6 +5,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+}
+
+.nav-logo {
+    background-image: url('/img/logo@2x.png');
+    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 7rem;
+    width: 7rem;
 }
 
 .nav-list {
@@ -42,13 +52,13 @@
 .menu .nav-list--item {
     margin-right: 5rem;
 }
-
+/* 
 .nav-list--item .nav-list--brand {
     font-size: 2.4rem;
     border-right: 1px solid #707070;
     padding-right: 2rem;
     color: #000000;
-}
+} */
 
 .nav-list--link {
     text-decoration: none;
@@ -66,12 +76,21 @@
 
 .nav-list--link__registration {
     background-color: #681F55;
-    border-radius: 5rem;
-    text-transform: uppercase;
+    border-radius: 1rem;
+    text-transform: capitalize;
     color: white;
     padding: 1rem;
+
+    box-shadow: .2rem 1rem 1rem rgba(207,175,239, .5);
+    
+    transition: all .5s cubic-bezier(.25,.43,.63,-0.01);
+    font-weight: normal!important;
 }
 
 .nav-list--link__registration:hover {
+    display: block;
     background-color: #CFAFEF!important;
+    box-shadow: .2rem 1rem 1rem rgba(207,175,239, .8);
+    transform: scale(.8)!important;
 }
+

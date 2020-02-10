@@ -22,8 +22,8 @@ const header = (props) => (
 
         <header>
             <div className="header_opening">
-                <h1 className="display-1 header_opening--heading1">Ahoy!</h1>
-                <h3 className="display-4 header_opening--heading3">Continue to world of limitless</h3>            
+                <h1 className="display-1 header_opening--heading1">Resmrt</h1>
+                <h3 className="display-4 header_opening--heading3">City of tomorrow</h3>            
 
                 <Button>Continue</Button>
             </div>

@@ -20,8 +20,19 @@
 
 .header_reporting--heading3 {
     font-size: 2.4rem;
+    font-family: 'Domine', serif;
+    padding-left: 3rem;
 }
 
 .reportingCards {
-    margin-top: 2rem;
+    margin-top: 5rem;
+}
+
+.reportingLink,
+.reportingLink:hover,
+.reportingLink:link,
+.reportingLink:visited,
+.reportingCards:active {
+    text-decoration: none;
+    color: #fff;
 }

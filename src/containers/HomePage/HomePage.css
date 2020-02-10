@@ -12,10 +12,10 @@
 }
 
 .header {
-    height: 85vh;
+    height: 80vh;
     
     background-color: #21D4FD;
-    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    background-image: linear-gradient(19deg, #cfafef 40%, #B721FF 100%);
 }
 
 .reporting {

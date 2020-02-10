@@ -29,6 +29,8 @@ header {
 .header_opening--heading3 {
     color: #ffffff;
     font-family: 'Domine';
-    letter-spacing: .5rem;
+    letter-spacing: .8rem;
     text-transform: capitalize;
+    
+    font-family: 'Lobster', cursive;
 }
